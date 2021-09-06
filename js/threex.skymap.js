@@ -1,6 +1,5 @@
 /** @namespace */
 var THREEx	= THREEx || {};
-
 THREEx.createSkymap	= function(opts){
 	opts		= opts			|| {};
 	if(typeof(opts) === 'string')	opts	= {textureCube: THREEx.createTextureCube(opts)};
